@@ -25,12 +25,32 @@
 (the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
 */
 
-body {}
+body {
+    text-align: center;
+}
 
 
 /* Header styles
 (all the styles inside the < header > or < nav > tags)
 */
+
+.spices {
+    background-image: url("../images/spices.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+}
+
+img {
+    width: 150px;
+    padding-top: 3.5rem;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 3rem;
+}
 
 
 /* Content styles
