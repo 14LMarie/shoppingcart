@@ -66,18 +66,18 @@ h1 {
 }
 
 #list-item {
-    border: 1px solid grey;
+    border: 1px solid #D9CDCD;
     margin-bottom: 1rem;
     margin-right: 1rem;
-    padding: 0.5rem 3rem;
+    padding: 0.7rem 4rem;
 }
 
 #add-items,
 .shopping-list-wrapper li .checkbox,
 .shopping-list-wrapper li .delete {
-    padding: 0.5rem;
-    border-radius: 5px;
-    background-color: #226E6E;
+    padding: 0.6rem;
+    border-radius: 18px;
+    background-color: #60A275;
     color: white;
 }
 
@@ -85,6 +85,7 @@ h1 {
 /* put in styling for shopping list items*/
 
 .shopping-list-wrapper {
+    border-radius: 12px;
     list-style-type: none;
     width: 80%;
     margin-left: auto;
@@ -98,6 +99,12 @@ h1 {
 
 .shopping-list-wrapper li .checkbox {
     margin-right: 1rem;
+}
+
+#add-items:hover,
+.shopping-list-wrapper li .checkbox:hover,
+.shopping-list-wrapper li .delete:hover {
+    background-color: #2B7240;
 }
 
 .shopping-list-wrapper li .delete {
@@ -116,8 +123,8 @@ hr.style {
 
 .clear-all button {
     width: 100%;
-    background-color: #B84239;
-    border-color: #B84239;
+    background-color: #E65450;
+    border-color: #E65450;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
@@ -130,6 +137,7 @@ hr.style {
     text-decoration: line-through;
     color: lightgray;
     background-color: #eee;
+    border-radius: 18px;
 }
 
 
