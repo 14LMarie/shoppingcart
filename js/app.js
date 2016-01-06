@@ -47,13 +47,19 @@ $(document).ready(function () {
     });
 
     //delete all items after clicking clear all button
-    //does the button in html need to have a class, I used section class
     $('#deleteall').on('click', function () {
         deleteAll();
     });
 });
 
 // these actions happen after document is loaded, because items are added and deleted after page load
+//add item when press enter key
+$(document).on('keypress', function (key) {
+    //keyCode == 13 is the ENTER key
+    if (key.keyCode == 13) {
+        addItem();
+    }
+});
 // on click check off single item
 $(document).on('click', '.checkbox', checkOff);
 //on click delte a single item
