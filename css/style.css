@@ -61,14 +61,14 @@ h1 {
 
 .input-box p {
     color: gray;
-    margin: 1rem 0;
+    margin: 2rem 0;
     font-style: italic;
 }
 
 #list-item {
     border: 1px solid #D9CDCD;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
+    margin-bottom: 2rem;
+    margin-right: .2rem;
     padding: 0.7rem 4rem;
 }
 
